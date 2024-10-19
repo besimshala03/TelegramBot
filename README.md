@@ -43,7 +43,7 @@ TELEGRAM_ACCESS_KEY=your-telegram-access-token
 OPENAI_API_KEY=your-openai-access-token
 
 # Whitelist der Benutzer-IDs, die Zugriff auf den Bot haben
-WHITELIST_USER_IDS=1561651501,5607517638
+WHITELIST_USER_IDS=<userId>,<userId>
 ```
 
 ## 4. Projekt bauen und ausführen
