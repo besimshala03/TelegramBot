@@ -44,3 +44,32 @@ OPENAI_API_KEY=your-openai-access-token
 
 # Whitelist der Benutzer-IDs, die Zugriff auf den Bot haben
 WHITELIST_USER_IDS=1561651501,5607517638
+```
+
+## 4. Projekt bauen und ausführen
+
+### 4.1. Repository klonen
+
+Klonen das Repository lokal:
+
+```bash
+git clone https://github.com/besimshala03/TelegramBot.git
+cd TelegramBot
+```
+
+### 4.2. Abhängigkeiten installieren
+```bash
+mvn clean install
+```
+### 4.3.  Bot starten
+```bash
+mvn exec:java -Dexec.mainClass="org.example.Main"
+```
+
+## 5. Den Bot verwenden
+
+Nachdem der Bot erfolgreich gestartet ist, kannst du ihn in Telegram finden und mit ihm interagieren. Nur die Benutzer, deren IDs in der Whitelist (WHITELIST_USER_IDS) enthalten sind, können den Bot verwenden.
+
+
+
+
